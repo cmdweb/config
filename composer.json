@@ -1,0 +1,16 @@
+{
+  "name": "alcatraz/kernel",
+  "description": "Config Alcatraz Framework.",
+  "authors": [
+    {
+      "name": "Gabriel Malaquias",
+      "email": "g@gmalaquias.com"
+    }
+  ],
+  "keywords": ["framework", "alcatraz", "config"],
+  "license": "MIT",
+  "type": "library",
+   "config": {
+      "preferred-install": "dist"
+   }
+}
