@@ -9,8 +9,5 @@
   ],
   "keywords": ["framework", "alcatraz", "config"],
   "license": "MIT",
-  "type": "library",
-   "config": {
-      "preferred-install": "dist"
-   }
+  "type": "library"
 }
