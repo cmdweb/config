@@ -10,7 +10,7 @@ date_default_timezone_set('America/Sao_Paulo');
  * DEFAULT para PATH
  */
 define('DS', DIRECTORY_SEPARATOR);
-define('ROOT', dirname(__DIR__) . DS);
+define('ROOT',dirname(dirname(dirname(__DIR__))) . DS);
 
 
 /**
@@ -48,7 +48,7 @@ define('PATH_AREA',       APP . 'Areas' . DS);
 define('NAMESPACE_CONTROLLER', 'Controllers');
 define('NAMESPACE_MODELS', 'Models');
 define('NAMESPACE_AREAS', 'Areas');
-define('NAMESPACE_VALIDATORS', 'Helpers\\Validators\\');
+define('NAMESPACE_VALIDATORS', 'ModelState\\Validators\\');
 define('NAMESPACE_ENTITIES', 'Entities\\');
 
 /**
