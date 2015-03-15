@@ -1,8 +1,18 @@
 <?php
-date_default_timezone_set('America/Sao_Paulo');
 /**
- * NAO REMOVER NENHUM CAMPO DESTE ARQUIVO, SE NECESSARIO APENAS FAZER ALTERAÇÕES
+ * Arquivo de configuração Alcatraz Framework
+ *
+ * Dependendo dos paths importandos para seu projeto não é necessários configurar todas
+ * as constantes.
+ *
+ * NAO REMOVER NENHUM CAMPO DESTE ARQUIVO, SE NECESSARIO APENAS FAZER ALTERAÇÕES.
  */
+
+
+/**
+ * DEFAULT timezone
+ */
+date_default_timezone_set('America/Sao_Paulo');
 
 /**
  * DEFAULT para PATH
@@ -80,7 +90,6 @@ define('NAMESPACE_MODELS', 'Models');
 define('NAMESPACE_AREAS', 'Areas');
 define('NAMESPACE_VALIDATORS', 'ModelState\\Validators\\');
 define('NAMESPACE_ENTITIES', 'Entities\\');
-
 
 /**
  * VARIAVEL DE TIMESTAMP PARA PADRÃO DE ATRIBUTOS
