@@ -23,17 +23,24 @@ define('FOLDER_SRC','Application');
 define('APP', ROOT . FOLDER_SRC . DS);
 define('VENDOR', ROOT . 'vendor' . DS);
 
+define("ALCATRAZ", VENDOR . "alcatraz" . DS);
 define('PATH_AREA',       APP . 'Areas' . DS);
 define('PATH_CONTROLLER', APP . 'Controllers' . DS);
-//define('PATH_LAYOUT', PATH_PUBLIC . 'layouts' . DS);
+define('PATH_LAYOUT', APP . 'Layouts' . DS);
 define('PATH_VIEWS',      APP . 'Views' . DS);
-define("LOG_PATH" , VENDOR .DS. "alcatraz" . DS . "logs");
+define("LOG_PATH" , VENDOR . "alcatraz" . DS . "logs");
+define("PATH_VALIDATORS", ALCATRAZ . 'modelstate'. DS . "Alcatraz" . DS . "ModelState" . DS . "Validators" . DS);
 /**
  * Namespaces
  */
 define('NAMESPACE_AREAS', 'Areas');
 define('NAMESPACE_CONTROLLER', 'Controllers');
+define('NAMESPACE_VALIDATORS', 'Alcatraz\\ModelState\\Validators\\');
 
+/**
+ * Em todos os posts de formulario é enviado os dados para uma classe que valida todos os dados antes de retornar.
+ */
+define("USE_STANDARD_VALIDATOR", true);
 /**
  * VARIAVEL DE TIMESTAMP PARA PADRÃO DE ATRIBUTOS
  */
