@@ -36,7 +36,7 @@ define("PATH_VALIDATORS", ALCATRAZ . 'modelstate'. DS . "Alcatraz" . DS . "Model
 define('NAMESPACE_AREAS', 'Areas');
 define('NAMESPACE_CONTROLLER', 'Controllers');
 define('NAMESPACE_VALIDATORS', 'Alcatraz\\ModelState\\Validators\\');
-
+define('NAMESPACE_ENTITIES', "Entities");
 /**
  * Em todos os posts de formulario é enviado os dados para uma classe que valida todos os dados antes de retornar.
  */
