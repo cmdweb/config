@@ -9,14 +9,5 @@
   ],
   "keywords": ["framework", "alcatraz", "config"],
   "license": "MIT",
-  "autoload": {
-    "psr-0": {
-      "Controllers\\" : "Application",
-      "Areas\\": "Application",
-      "Models" : "Application",
-      "Entities" : "Application",
-      "BLL" : "Application"
-    }
-  },
   "type": "library"
 }
