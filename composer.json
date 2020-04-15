@@ -4,7 +4,7 @@
   "authors": [
     {
       "name": "Gabriel Malaquias",
-      "email": "g@gmalaquias.com"
+      "email": "gemalaquias@gmail.com"
     }
   ],
   "keywords": ["framework", "alcatraz", "config"],
@@ -14,7 +14,8 @@
       "Controllers\\" : "Application",
       "Areas\\": "Application",
       "Models" : "Application",
-      "Entities" : "Application"
+      "Entities" : "Application",
+      "BLL" : "Application"
     }
   },
   "type": "library"
